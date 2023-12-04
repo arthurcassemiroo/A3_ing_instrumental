@@ -1,0 +1,213 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: black;
+    font-family: "Barlow";
+}
+
+.texto-cabecalho {
+    color: white;
+    font-family: "Barlow";
+    font-size: 2.5rem;
+}
+
+.menu-lista {
+    display: flex;
+}
+
+.menu-link {
+    color: white;
+    margin-right: 1.50rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-link.ativo {
+    color: green;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item:last-child .menu-link {
+    margin-right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80; 
+  }
+  
+  .banner-imagem {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+
+
+.banner-titulo{
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 40px 50px;     
+}
+
+.cor-fundo, .escolhe-plano, .rodape, .titulo-rodape, .copyright, .container-page, form, .nome-container, .input-line-container, .input-line, .button-enviar, .formulario, .text-form, .text-form h1, .text-form p, .urus-e-texto, .urus-e-texto div, .urus-texto, .urus, .fotos-carros, .fotos, .fotos img, .menu-lista, .menu-link, .menu-link.ativo, .menu-link:hover, .menu-item, .menu-item:last-child .menu-link, .titulo-perguntas, .perguntas, .perguntas input, .perguntas .resposta, .perguntas label, .perguntas input:checked ~ .resposta, .descricao, .produtos, .produtos li, .produtos li:hover, .produtos li:active, .produtos li:hover h2, .produtos h2, .produtos p {
+    font-family: "Barlow";
+    color: white;
+}
+
+.cor-fundo {
+    background: black;
+}
+
+.sobre-sdg {
+    background: black;
+    padding: 30px 0 10px 0;
+}
+
+.sobre-sdg h2 {
+    text-align: center;
+    text-shadow: 0 4px 4px black;
+    color: white;
+    font-size: 1.75rem;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.descritivo {
+    width: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.descritivo li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.descritivo li:hover {
+    border-color: green;
+}
+
+.descritivo li:active {
+    border-color: green;
+}
+
+.descritivo li:hover h2 {
+    font-size: 35px;
+}
+
+.descritivo h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.fotos-sdg {
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+    background-color: black;
+}
+
+.fotos {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.fotos img {
+    max-width: 100%;
+}
+
+.titulo-sdgs {
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 40px 0; 
+}
+
+.sdgs {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background: black;
+    color: greenyellow;
+}
+
+.sdgs input, .sdgs .desc-sdg {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sdgs label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.sdgs input:checked ~ .desc-sdg {
+    display: block;
+}
+
+.rodape {
+    text-align: center;
+    background: black;
+    padding: 40px 0;
+    font-size: 1.3rem;
+}
+
+.titulo-rodape, .msg-final {
+    color: white;
+<<<<<<< HEAD
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção de 16:9 para o vídeo responsivo */
+    padding-top: 30px; /* Adiciona espaço acima do vídeo */
+    height: 0;
+    overflow: hidden;
+    width: 80%; /* Define a largura desejada para ocupar 80% da tela */
+    margin: 0 auto; /* Centraliza a div na tela */
+  }
+  
+  /* Estilos para o vídeo do YouTube dentro da div */
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+=======
+}
+>>>>>>> parent of c0d52df (Alterações finais.)
